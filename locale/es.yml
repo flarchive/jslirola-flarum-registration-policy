@@ -1,0 +1,15 @@
+jslirola-registration-policy:
+  admin:
+    settings:
+      block_token_unconfirmed_label: Rechazar el acceso mientras el email no esté confirmado
+      block_token_unconfirmed_help: Se rechaza la contraseña correcta (formulario de acceso, POST /api/token, clientes SSO) hasta que la cuenta confirme su email. Una contraseña incorrecta recibe la respuesta de siempre.
+      override_sso_activation_label: Exigir confirmación también con maicol07/flarum-ext-sso
+      override_sso_activation_help: Esa extensión confirma automáticamente todas las cuentas nuevas. Con esta opción, las cuentas creadas desde el formulario de registro del foro deben confirmar su email; las creadas por el cliente SSO conservan la confirmación automática. No hace nada si esa extensión está desactivada.
+
+  forum:
+    pending_confirmation:
+      title: Revisa tu email
+      text: "Tu cuenta se ha creado, pero todavía no has iniciado sesión. Te hemos enviado un enlace de confirmación a {email}: ábrelo para activar la cuenta y entrar."
+      spam_hint: Si no llega en unos minutos, mira en la carpeta de spam.
+      close_button: Entendido
+      notice: "Confirma tu email para entrar: te hemos enviado un enlace a {email}."
