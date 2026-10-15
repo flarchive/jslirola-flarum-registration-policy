@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of jslirola/flarum-registration-policy.** Not for installation: use [Packagist](https://packagist.org/packages/jslirola/flarum-registration-policy) or the [upstream repository](https://github.com/jslirola/flarum-registration-policy).
 
-**0** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/jslirola-flarum-registration-policy/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^2.0.0`
+**1** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/jslirola-flarum-registration-policy/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^2.0.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.0` | 2026-10-15 | `^2.0.0` | [Browse](https://github.com/flarchive/jslirola-flarum-registration-policy/tree/archive/v1.0.0) |
 
 Catalog entry: [packages/jslirola-flarum-registration-policy.json](https://github.com/flarchive/archive-index/blob/main/packages/jslirola-flarum-registration-policy.json)
 
